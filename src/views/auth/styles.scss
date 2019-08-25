@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+
+.auth {
+  background-color: $lightBlue;
+  height: 100vh;
+  padding-top: 10%;
+  @media only screen and (max-width: 600px) {
+    padding-top: 50%;
+  }
+  &-loginBox {
+    width: 33%;
+    @media only screen and (max-width: 600px) {
+      width: 70%;
+    }
+    margin: auto;
+    padding: 30px;
+
+    &-logo {
+      margin: auto;
+      width: 100%;
+      height: auto;
+    }
+
+    &-button {
+      background-color: $pink !important;
+      color: $white !important;
+    }
+  }
+}
